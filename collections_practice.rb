@@ -33,10 +33,10 @@ def kesha_maker (array)
   temp
 end
 
-def find_a (name)
+def find_a (array)
   array.select { |x| x.first == 'a'}
 end
 
-def sum_array(name)
+def sum_array(array)
   array.inject { :+}
 end
