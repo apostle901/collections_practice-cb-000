@@ -36,3 +36,7 @@ end
 def find_a (name)
   array.select { |x| x.first == 'a'}
 end
+
+def sum_array(name)
+  array.inject { :+}
+end
