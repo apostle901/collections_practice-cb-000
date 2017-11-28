@@ -42,5 +42,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.map { |e, i| e << 's' unless i == 1 }
+  array.each_with_index.map { |e, i| i == 1 ? e << 's' : e }
 end
